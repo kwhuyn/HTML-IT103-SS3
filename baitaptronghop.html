@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <h2>
+            Đăng Ký Sinh Viên Mới
+        </h2>
+    <fieldset>
+    <br>
+        <div>
+            <label for="studentname">Họ và tên:</label>
+            <input id="studentname" type="text" placeholder="Họ và tên">
+        </div>
+    </br>
+        <div>
+            <label for="date">Ngày sinh đầy đủ</label>
+            <input id="date" type="date">
+        </div>
+    <br>
+        <div>
+            <label for="month&year">Tháng và năm nhập học</label>
+            <input id="month&year" type="month">
+        </div>
+    </br>
+        <div>
+            <label for="time">Thời gian học</label>
+            <input id="time" type="time">
+        </div>
+    <br>
+     <div>
+        <label for="gender">Giới tính:</label>
+        <input id="gender" type="radio" name="gender" >Nam
+        <input id="gender" type="radio" name="gender" >Nữ
+        <input id="gender" type="radio" name="gender" >Khác
+        </div>
+    </br>
+    <br>
+    <div>
+        <label for="email">Email sinh viên:</label>
+        <input id="email" type="email">
+    </div>
+    <br>
+    <div>
+        <label for="pass">Mật khẩu:</label>
+        <input id="pass" type="password">
+    </div>
+    <br>
+    <div>
+        <label for="goals">Mục Tiêu học tập</label>
+        <textarea rows="4" cols="20" id="goals" placeholder="Nhập mục tiêu..."></textarea>
+    </div>
+        </fieldset>
+    <fieldset>
+        <br>
+        <div>
+            <label for="form">Cơ sở:</label>
+            <select id="form">
+                <option value="cs1">Hà Nội</option>
+                <option value="cs2">TP.HCM</option>
+            </select>
+        </div>
+    </br>
+    <div>
+        <label for="choosefile">Ảnh thẻ sinh viên:</label>
+        <input id="choosefile" type="file" />
+    </div>
+    <br>
+    <div>
+        <label for="favsubject">Môn học yêu thích:</label>
+        <input id="favsubject" type="checkbox" />Toán học 
+        <input id="favsubject" type="checkbox" />Lập trình
+        <input id="favsubject" type="checkbox" />Tiếng Anh
+        <input id="favsubject" type="checkbox" />Vật lý
+    </div>
+    <br>
+    <div>
+        <label for="">Tiến Độ Học Tập</label>
+        <input type="range" min="0" max="100" />
+    </div>
+    <br>
+    <div>
+        <label for="year">Năm học thứ</label>
+        <input id="year" type="number" min="1" max="10" />
+    </div>
+    <br>
+    <div>
+    <label for="select">Tìm Kiếm Khóa học</label>
+     <input id="select" type="text" >
+        </div>
+    </br>
+
+
+    <br>
+    <div>
+        <label for="color">Màu sắc yêu thích</label>
+        <input id="color" type="color" />
+    </div>
+    <br>
+    <div>
+        <button type="button">Hủy</button>
+        <button type="reset">Làm Mới</button>
+        <button type="submit">Gửi</button>
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>

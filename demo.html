@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!--tiêu đề form - Tên form-->
+        <h3>Thêm mới Thành Viên</h3>
+        <!--thân form- Nơi chứa các thành phần input -->
+        <div>
+        <label for="username">Họ và tên:</label>
+        <input tabindex="1" id="username" type="text" placeholder="Họ và tên">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Email">
+        </div>
+    <br>
+        <div>
+        <label for="date">Ngày sinh:</label>
+        <input id="date" type="date" >
+        </div>
+        <div>
+        <label for="gender">Giới tính:</label>
+        <input id="gender" type="radio" name="gender" >Nam
+        <input id="gender" type="radio" name="gender" >Nữ
+        <input id="gender" type="radio" name="gender" >Khác
+        </div>
+  
+        <div>
+            <label  for="hobbies">Sở thích:</label>
+            <input type="checkbox" /> Đá bóng <input type="checkbox" /> Bóng rổ
+            <input type="checkbox" /> Bơi lội <input type="checkbox" /> Du lịch
+    </br>
+        </div>
+        <div>
+            <label for="provice">Tỉnh/Thành phố:</label>
+            <select id="provice">
+                <option>--Chọn Tỉnh/Thành phố--</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Phú Thọ">Phú Thọ</option>
+                <option value="Bắc Ninh">Bắc Ninh</option>
+                <option value="Nghệ An">Nghệ An</option>
+                <option value="Hà Tĩnh">Hà Tĩnh</option>
+            </select>
+        </div>  
+        <!--các input liên quan đến nhập liệu: pass, gmail,....-->
+        <div>
+            <label for="">Màu sắc yêu thích</label>
+            <input type="color" />
+        </div>
+        <div>
+            <label for="">Tiến độ học tập</label>
+            <input type="range" min="0" max="100" />
+        </div>
+        <!--chân form - Chứa các nút submit, reset,... (hành động)-->
+        <div>
+            <button type="submit">Thêm mới</button>
+            <button type="reset">Nhập lại</button>
+            <button type="button">Quay lại</button>
+        </div>
+
+    </form>
+</body>
+</html>
